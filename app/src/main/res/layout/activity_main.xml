@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    tools:context=".MainActivity">
+
+ <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+
+     <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+         android:layout_gravity="center"
+        android:textColor="#05000C"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome To Grade Calculator" />
+
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+         <Button
+             android:id="@+id/share_icon"
+             android:layout_width="67dp"
+             android:layout_height="78dp"
+             android:backgroundTint="#FDFCFC"
+             android:layout_alignParentRight="true"
+             android:drawableTop="@drawable/shareicon1"
+             android:padding="4dp"
+             android:fontFamily="serif-monospace"
+             android:textColor="#05000C"
+             android:layout_marginHorizontal="23dp"
+             android:textStyle="bold"
+             android:textSize="14sp"
+             android:text="SHARE" />
+
+     </RelativeLayout>
+
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_margin="23dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/calculate_sgpa"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FDFCFC"
+                android:layout_alignParentLeft="true"
+                android:drawableTop="@drawable/sgpaicon"
+                android:fontFamily="serif-monospace"
+                android:textColor="#05000C"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="SGPA" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/calculate_cgpa"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/cgpaicon"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="#FDFCFC"
+                android:fontFamily="serif-monospace"
+                android:textColor="#05000C"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="CGPA" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_margin="23dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/calculate_percentage"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FDFCFC"
+                android:layout_alignParentLeft="true"
+                android:drawableTop="@drawable/percentageicon"
+                android:fontFamily="serif-monospace"
+                android:textColor="#05000C"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="PERCENT" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/help_support"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/helpsupport"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="#FDFCFC"
+                android:fontFamily="serif-monospace"
+                android:textColor="#05000C"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="HELP/SUPPORT" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+         <Button
+             android:id="@+id/bput_result_link"
+             android:layout_width="match_parent"
+             android:layout_height="78dp"
+             android:backgroundTint="#FDFCFC"
+
+             android:drawableLeft="@drawable/browsericon"
+             android:padding="4dp"
+             android:fontFamily="serif-monospace"
+             android:textColor="#05000C"
+             android:layout_marginHorizontal="23dp"
+             android:textStyle="bold"
+             android:textSize="20sp"
+             android:text="BPUT Result Site" />
+
+         
+
+     </RelativeLayout>
+
+
+ </LinearLayout>
+
+
+</ScrollView>
+

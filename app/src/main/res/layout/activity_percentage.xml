@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainbackground"
+    tools:context=".PercentageActivity">
+
+    <RelativeLayout
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textStyle="bold"
+            android:textColor="#050000"
+            android:id="@+id/calculate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CALCULATE"
+            android:layout_below="@+id/cgpa_editText"
+            android:textAlignment="center"
+            android:backgroundTint="#F5F5F8"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"/>
+
+        <EditText
+            android:textStyle="normal|bold|italic"
+            android:id="@+id/cgpa_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your CGPA"
+            android:textColorHint="#0C0C0C"
+            android:maxLength="2"
+            android:inputType="numberDecimal"
+            android:textAlignment="center" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
